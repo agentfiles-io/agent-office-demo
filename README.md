@@ -2,8 +2,7 @@
 
 A cinematic 3D animated demo showing AI agents collaborating across different machines through a shared file store. Built with React Three Fiber and Next.js.
 
-https://github.com/user-attachments/assets/demo.mp4
-
+https://github.com/user-attachments/assets/0ee878a0-eaec-4721-aa0e-c7ce759ce609
 <video src="assets/demo.mp4" autoplay loop muted playsinline width="100%"></video>
 
 ## What it shows
