@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/hammadtariq/go/src/github.com/hammadtq/attach-dev/attach-run -type f -name \"*.ts\" -o -name \"*.tsx\" -o -name \"*.js\" -o -name \"*.jsx\" 2>/dev/null | grep -v node_modules | head -30)",
+      "Bash(find /Users/hammadtariq/go/src/github.com/hammadtq/attach-dev/attach-run -type f \\\\\\( -name \"*.ts\" -o -name \"*.tsx\" -o -name \"*.js\" -o -name \"*.jsx\" \\\\\\) ! -path \"*/node_modules/*\" 2>/dev/null | head -50)",
+      "Bash(find /Users/hammadtariq/go/src/github.com/hammadtq/attach-dev/attach-run/apps/web/src -type f \\\\\\( -name \"*.ts\" -o -name \"*.tsx\" \\\\\\) ! -path \"*/node_modules/*\" 2>/dev/null | head -100)",
+      "Bash(pnpm install:*)",
+      "Bash(ffmpeg -y -i /Users/hammadtariq/go/src/github.com/hammadtq/agentfiles-io/demo/video/demo-trimmed.mov -t 19.525 -c copy /Users/hammadtariq/go/src/github.com/hammadtq/agentfiles-io/demo/video/demo-final.mov)",
+      "Bash(ffmpeg -y -ss 3 -to 24.376 -i /Users/hammadtariq/go/src/github.com/hammadtq/agentfiles-io/demo/video/demo-new.mov -c copy /Users/hammadtariq/go/src/github.com/hammadtq/agentfiles-io/demo/video/demo-new-trimmed.mov)",
+      "Bash(mkdir -p /Users/hammadtariq/go/src/github.com/hammadtq/agentfiles-io/demo/assets && ffmpeg -y -i /Users/hammadtariq/go/src/github.com/hammadtq/agentfiles-io/demo/video/demo-new-final.mov -vcodec h264 -acodec aac -b:v 2M -s 1512x771 /Users/hammadtariq/go/src/github.com/hammadtq/agentfiles-io/demo/assets/demo.mp4)",
+      "Bash(ffmpeg -y -i /Users/hammadtariq/go/src/github.com/hammadtq/agentfiles-io/demo/video/demo-new-final.mov -vcodec h264 -acodec aac -b:v 2M -s 1512x770 /Users/hammadtariq/go/src/github.com/hammadtq/agentfiles-io/demo/assets/demo.mp4)"
+    ]
+  }
+}
